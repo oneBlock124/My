@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /judge
+Disallow: /results
+Disallow: /categories
+
+Sitemap: https://scoreapp.com/sitemap.xml
