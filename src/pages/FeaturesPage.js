@@ -27,7 +27,6 @@ function FeaturesPage() {
               <button className={`theme-btn ${themeName === 'event' ? 'active' : ''}`} onClick={() => toggleTheme("event")}>Event</button>
             </div>
             <button className="login-btn" onClick={() => navigate("/login")}>Login</button>
-            <button className="demo-btn" onClick={() => navigate("/login")}>Start Demo</button>
           </div>
         </div>
       </nav>
